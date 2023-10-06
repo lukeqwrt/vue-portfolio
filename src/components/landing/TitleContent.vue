@@ -5,7 +5,7 @@ import linkedin from '../../assets/img/linkedin.png'
 </script>
 
 <template>
-    <div class="content_wrapper justify-self-center grid w-full gap-4"> 
+    <div class="content_wrapper justify-self-center grid w-full gap-4 lg:gap-7"> 
         <div class="title-content justify-self-center w-[201px] md:w-[340px]  relative">
             <h1 class="text-3xl md:text-5xl font-bold ">
                 Jr. Front-End Developer 

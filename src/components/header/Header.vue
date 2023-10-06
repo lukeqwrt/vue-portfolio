@@ -13,9 +13,9 @@ const navBarClicked = () => {
 </script>
 
 <template>
-  <header class=" h-[75px] w-full px-5 md:px-12">
+  <header class=" h-[75px] w-full px-5 md:px-12 lg:container lg:mx-auto lg:h-[100px]">
       <nav class="h-full flex items-center justify-between relative">
-        <h3 class="logo text-lg sm:text-xl font-[600]">Luke&Aira</h3>
+        <h3 class="logo text-lg sm:text-xl font-[600] lg:text-2xl">Luke&Aira</h3>
 
         <div @click="navBarClicked()" class="navbar-toggle absolute right-0 top-[50%] translate-y-[-50%] cursor-pointer block md:hidden z-20">
           <span class="w-[25px] h-[3px] my-[5px] mx-auto block bg-black duration-200" :class="toggleActive ? 'translate-y-[8px] rotate-[45deg]' : 'translate-y-[0px]' "></span>
