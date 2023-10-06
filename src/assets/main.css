@@ -9,3 +9,16 @@
 *, html, body {
   font-family: 'Poppins', sans-serif;
 }
+
+.section_title{
+  color: rgb(82, 157, 255);
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.second_title{
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 18px;
+}

@@ -6,7 +6,7 @@ import linkedin from '../../assets/img/linkedin.png'
 
 <template>
     <div class="content_wrapper justify-self-center grid w-full gap-4 lg:gap-7"> 
-        <div class="title-content justify-self-center w-[201px] md:w-[340px]  relative">
+        <div class="title-content justify-self-center sm:justify-self-start w-[201px] md:w-[340px]  relative">
             <h1 class="text-3xl md:text-5xl font-bold ">
                 Jr. Front-End Developer 
             </h1>
@@ -17,9 +17,13 @@ import linkedin from '../../assets/img/linkedin.png'
             <span class="text-[13px] md:text-[14px]">Hi, I'm Luke Adrian Sillano. A passionate front Front-End Developer blablabla</span>
         </div>
 
-        <div class="logos justify-self-center sm:justify-self-start flex items-center gap-3 justify-center">
-            <img :src="github" alt="asd" class="h-auto w-[20px]">
-            <img :src="linkedin" alt="asd" class="h-auto w-[20px]">
+        <div class="logos justify-self-center sm:justify-self-start flex items-center gap-3 md:gap-5 justify-center">
+            <a href="https://github.com/lukeqwrt">
+                <img :src="github" alt="asd" class="h-auto w-[20px] lg:w-[28px]">
+            </a>
+            <a href="https://www.linkedin.com/in/luke-adrian-sillano-a404201a0">
+                <img :src="linkedin" alt="asd" class="h-auto w-[20px] lg:w-[28px]">
+            </a>
         </div>
     </div>
 </template>
