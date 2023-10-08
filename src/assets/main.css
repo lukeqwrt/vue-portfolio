@@ -9,6 +9,10 @@
 *, html, body {
   font-family: 'Poppins', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
 
 .section_title{
   color: rgb(82, 157, 255);

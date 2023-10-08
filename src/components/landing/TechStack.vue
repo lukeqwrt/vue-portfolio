@@ -13,7 +13,7 @@ const techStack = ref([html, css, js, tailwind, bootstrap, sass, firebase])
 </script>
 
 <template>
-    <div class="tech pe-2 flex gap-2 absolute bottom-5 left-5 sm:relative sm:left-0 lg:gap-4">
+    <div class="tech pe-2 flex gap-2 absolute bottom-0 left-0 sm:left-0  md:left-0 md:bottom-0 lg:gap-4">
         <div class="w-[60px] sm:w-[100px] lg:w-[120px] flex justify-between items-center">
             <span class="font-bold text-sm lg:text-lg">Tech Stack </span>
             <div class=" font-[400]">|</div> 
