@@ -12,7 +12,7 @@
         leave-from-class="opacity-100"
         leave-to-class="transform opacity-0"
     >
-        <div v-if="props.toggleActive" class="modal_nav_container md:hidden fixed left-0 top-0 bg-white w-full h-full p-5 z-10">
+        <div v-if="props.toggleActive" class="modal_nav_container md:hidden fixed left-0 top-0 bg-white w-full h-full p-5 z-10 dark:bg-[#121212]">
             <div class="modal-wrapper mt-12"> 
                 <NavItems class="grid gap-7 text-center " />
             </div>

@@ -26,3 +26,7 @@ html{
   margin-bottom: 10px;
   font-size: 18px;
 }
+html.dark .second_title{
+  color: #fff !important;
+}
+

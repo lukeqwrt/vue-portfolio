@@ -13,3 +13,11 @@ import Header from './components/header/Header.vue'
     <RouterView />
   </div>
 </template>
+
+<style>
+html.dark,
+.main{
+  color-scheme: dark;
+  
+}
+</style>
