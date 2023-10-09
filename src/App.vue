@@ -5,7 +5,7 @@ import Header from './components/header/Header.vue'
 </script>
 
 <template>
-  <div class="main">
+  <div class="main dark:!bg-[#121212]">
     <!-- header -->
     <Header />
 
