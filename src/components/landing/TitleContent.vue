@@ -20,7 +20,7 @@ const isDark = useDark()
         </div>
 
         <div class="details w-full max-w-[255px] text-center sm:text-left md:w-full md:max-w-[310px] justify-self-center md:justify-self-start">
-            <span class="text-[13px] md:text-[14px]">Hi, I'm Luke Adrian Sillano. A passionate front Front-End Developer. I want to be successful some day</span>
+            <span class="text-[13px] md:text-[14px]">Hi, I'm Luke Adrian Sillano. A passionate Front-End Developer. Let's make something special.</span>
         </div>
 
         <div class="logos justify-self-center sm:justify-self-start flex items-center gap-3 md:gap-5 justify-center">
